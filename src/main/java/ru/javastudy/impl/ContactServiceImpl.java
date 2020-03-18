@@ -40,5 +40,4 @@ public class ContactServiceImpl implements ContactService {
     public void deleteContactEntityByFirstName(String firstName) {
         contactRepository.deleteContactEntityByFirstName(firstName);
     }
-
 }
