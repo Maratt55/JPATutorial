@@ -35,7 +35,6 @@ public class ContactServiceImpl implements ContactService {
         }catch (RuntimeException r){
             System.out.println(r.getMessage());
         }
-
     }
 
     public void deleteContactEntityByFirstName(String firstName) {
